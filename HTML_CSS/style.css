@@ -1,0 +1,52 @@
+body {
+background-color: #EEE;
+/*background-image: url('img/lit_pattern.jpeg'); 
+background-image: url('img/img_nature.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;*/
+
+}
+
+
+
+h1 {
+    color:hsl(120, 50%, 30%);
+    /*border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: dashed;
+    border: 5px black dashed;
+    border : 3px solid black;
+    border-radius: 5px ;
+    background-color: plum*/
+    background-color: aqua;
+    box-shadow: rgba(0, 255, 255, 0.548) 4px 4px 4px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+table{
+
+    background-color: #FFF;
+}
+tbody tr {
+    background-color: #ccc;
+    
+}
+tbody tr:nth-child(even){ /*on peut changer le 2n par even(pair) ou 2n+1 par odd (impair)*/
+    background-color: red;
+}
+#le-titre-1 {
+    background-color: red;
+}
+.titre-de-section:first-child{
+    background-color: rgb(98, 0, 255);
+    box-shadow: rgba(0, 255, 255, 0.548) 4px 4px 4px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+
+}
