@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+} 
+
+#text{
+    font-family: 'Times New Roman', Times, serif;
+    width: 580px;
+    height: 30px;
+    background:white;
+    color: whitesmoke;
+    float: left;
+}
+#Recherche{
+    width: 30px;
+    height: 30px;
+    background: url(img/loupe.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    float: right;
+}
+
+.nav-primary {
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    opacity: 0.9;
+}
+
+.menu-horiz {
+    margin:top;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    list-style-type:none;
+    color:white;
+}
+
+.menu-horiz__item {
+    display:block;
+    padding: 6px 0px;
+    color: black;
+    text-decoration:white;
+    transition: color 0.5s;
+}
